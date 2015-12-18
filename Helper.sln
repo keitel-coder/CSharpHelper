@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{FBBDE0D0-6191-44F1-9635-CFD5E003C144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{B630D0DD-A39D-491B-92F5-C322B78A82C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{FD74E576-2FC7-49B8-962C-422B28C1B133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeiboApiTest", "WeiboApiTest\WeiboApiTest.csproj", "{09B30CC6-E55A-4CBC-9EC9-FC8536CA7B89}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "rmb", "rmb\rmb.vbproj", "{19A2CE6E-4F22-46BF-B239-97078E76752D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{A7FA0B94-35C4-4F1B-A566-671EC4D44361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{118F8463-91CD-408A-B805-63A460EBBA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{B91FDBAB-8992-4B79-9D10-B685C38DCF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{424AB7A6-54F6-4900-B40D-C07A7617AF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weibo", "Weibo\Weibo.csproj", "{5F41A11B-7D9C-4E61-99B3-1B5038754DCF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://wpdever.net:8080/tfs/ligui
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Helper\\Helper.csproj
+		SccProjectName1 = Helper
+		SccLocalPath1 = Helper
+		SccProjectUniqueName2 = ConsoleTest\\ConsoleTest.csproj
+		SccProjectName2 = ConsoleTest
+		SccLocalPath2 = ConsoleTest
+		SccProjectUniqueName3 = Web\\Web.csproj
+		SccProjectName3 = Web
+		SccLocalPath3 = Web
+		SccProjectUniqueName4 = WeiboApiTest\\WeiboApiTest.csproj
+		SccProjectName4 = WeiboApiTest
+		SccLocalPath4 = WeiboApiTest
+		SccProjectUniqueName5 = rmb\\rmb.vbproj
+		SccProjectName5 = rmb
+		SccLocalPath5 = rmb
+		SccProjectUniqueName6 = Login\\Login.csproj
+		SccProjectName6 = Login
+		SccLocalPath6 = Login
+		SccProjectUniqueName7 = DAL\\DAL.csproj
+		SccProjectName7 = DAL
+		SccLocalPath7 = DAL
+		SccProjectUniqueName8 = BLL\\BLL.csproj
+		SccProjectName8 = BLL
+		SccLocalPath8 = BLL
+		SccProjectUniqueName9 = Entity\\Entity.csproj
+		SccProjectName9 = Entity
+		SccLocalPath9 = Entity
+		SccProjectUniqueName10 = Weibo\\Weibo.csproj
+		SccProjectName10 = Weibo
+		SccLocalPath10 = Weibo
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBBDE0D0-6191-44F1-9635-CFD5E003C144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBDE0D0-6191-44F1-9635-CFD5E003C144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBDE0D0-6191-44F1-9635-CFD5E003C144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBDE0D0-6191-44F1-9635-CFD5E003C144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B630D0DD-A39D-491B-92F5-C322B78A82C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B630D0DD-A39D-491B-92F5-C322B78A82C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B630D0DD-A39D-491B-92F5-C322B78A82C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B630D0DD-A39D-491B-92F5-C322B78A82C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD74E576-2FC7-49B8-962C-422B28C1B133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD74E576-2FC7-49B8-962C-422B28C1B133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD74E576-2FC7-49B8-962C-422B28C1B133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD74E576-2FC7-49B8-962C-422B28C1B133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B30CC6-E55A-4CBC-9EC9-FC8536CA7B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B30CC6-E55A-4CBC-9EC9-FC8536CA7B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B30CC6-E55A-4CBC-9EC9-FC8536CA7B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B30CC6-E55A-4CBC-9EC9-FC8536CA7B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A2CE6E-4F22-46BF-B239-97078E76752D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A2CE6E-4F22-46BF-B239-97078E76752D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A2CE6E-4F22-46BF-B239-97078E76752D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A2CE6E-4F22-46BF-B239-97078E76752D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FA0B94-35C4-4F1B-A566-671EC4D44361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FA0B94-35C4-4F1B-A566-671EC4D44361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FA0B94-35C4-4F1B-A566-671EC4D44361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FA0B94-35C4-4F1B-A566-671EC4D44361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118F8463-91CD-408A-B805-63A460EBBA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118F8463-91CD-408A-B805-63A460EBBA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118F8463-91CD-408A-B805-63A460EBBA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118F8463-91CD-408A-B805-63A460EBBA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91FDBAB-8992-4B79-9D10-B685C38DCF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91FDBAB-8992-4B79-9D10-B685C38DCF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91FDBAB-8992-4B79-9D10-B685C38DCF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91FDBAB-8992-4B79-9D10-B685C38DCF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424AB7A6-54F6-4900-B40D-C07A7617AF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424AB7A6-54F6-4900-B40D-C07A7617AF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424AB7A6-54F6-4900-B40D-C07A7617AF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424AB7A6-54F6-4900-B40D-C07A7617AF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F41A11B-7D9C-4E61-99B3-1B5038754DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F41A11B-7D9C-4E61-99B3-1B5038754DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F41A11B-7D9C-4E61-99B3-1B5038754DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F41A11B-7D9C-4E61-99B3-1B5038754DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F41A11B-7D9C-4E61-99B3-1B5038754DCF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Weibo</RootNamespace>
+    <AssemblyName>Weibo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Weibo.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="Entity\EmailEntity.cs" />
+    <Compile Include="Entity\FavoriteIdEntity.cs" />
+    <Compile Include="Entity\FavoriteEntity.cs" />
+    <Compile Include="Entity\FavoriteIdsEntity.cs" />
+    <Compile Include="Entity\FavoritesEntity.cs" />
+    <Compile Include="Entity\SIdValueEntity.cs" />
+    <Compile Include="Entity\RateLimitStatus.cs" />
+    <Compile Include="Entity\SchoolEntity.cs" />
+    <Compile Include="Entity\StatuseIdsEntity.cs" />
+    <Compile Include="Entity\StatusTags.cs" />
+    <Compile Include="Entity\StatusTagEntity.cs" />
+    <Compile Include="Entity\StatusTagsEntity.cs" />
+    <Compile Include="Entity\IdValueEntity.cs" />
+    <Compile Include="Entity\TagsEntity.cs" />
+    <Compile Include="Entity\TagEntity.cs" />
+    <Compile Include="Entity\TrendsEntity.cs" />
+    <Compile Include="Entity\TrendEntity.cs" />
+    <Compile Include="Entity\UIdEntity.cs" />
+    <Compile Include="Entity\UserFollowerEntity.cs" />
+    <Compile Include="Entity\FriendsEntity.cs" />
+    <Compile Include="Entity\FollowerEntity.cs" />
+    <Compile Include="Entity\IdsEntity.cs" />
+    <Compile Include="Entity\RemarkEntity.cs" />
+    <Compile Include="Entity\TopStatusEntity.cs" />
+    <Compile Include="Entity\UsersCountEntity.cs" />
+    <Compile Include="Enums\SchoolType.cs" />
+    <Compile Include="Favorites.cs" />
+    <Compile Include="Friendships.cs" />
+    <Compile Include="Entity\PrivacyEntity.cs" />
+    <Compile Include="Helper\UrlHelper.cs" />
+    <Compile Include="Tags.cs" />
+    <Compile Include="Trends.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="Comments.cs" />
+    <Compile Include="Entity\ADEntity.cs" />
+    <Compile Include="Entity\CommentLineEntity.cs" />
+    <Compile Include="Entity\StatusCountEntity.cs" />
+    <Compile Include="Entity\EmotionEntity.cs" />
+    <Compile Include="Entity\ErrorEntity.cs" />
+    <Compile Include="Entity\GeoEntity.cs" />
+    <Compile Include="Entity\IdEntity.cs" />
+    <Compile Include="Entity\MIdEntity.cs" />
+    <Compile Include="Entity\PictureEntity.cs" />
+    <Compile Include="Entity\TimelineEntity.cs" />
+    <Compile Include="Entity\ResultEntity.cs" />
+    <Compile Include="Entity\TimelineIdsEntity.cs" />
+    <Compile Include="Entity\UserEntity.cs" />
+    <Compile Include="Entity\VisibleEntity.cs" />
+    <Compile Include="Entity\StatusEntity.cs" />
+    <Compile Include="Enums\VisableType.cs" />
+    <Compile Include="Helper\JsonHelper.cs" />
+    <Compile Include="Entity\AuthorizeEntity.cs" />
+    <Compile Include="Entity\AccessTokenEntity.cs" />
+    <Compile Include="Entity\TokenInfoEntity.cs" />
+    <Compile Include="Enums\DisplayType.cs" />
+    <Compile Include="Helper\HttpHelper.cs" />
+    <Compile Include="Oauth2.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponseState.cs" />
+    <Compile Include="Statuses.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="lib\Newtonsoft.Json.dll" />
+    <Content Include="lib\Newtonsoft.Json.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
